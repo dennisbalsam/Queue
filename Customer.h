@@ -8,8 +8,6 @@ class Customer {
 		int arrivaltime;
 		//What number customer they are
 		int customernumber;
-		//What time they departed
-		int departuretime;
 
 
 	public:
@@ -21,8 +19,6 @@ class Customer {
 		int GetArrivalTime();
 		//Returns what customer number they are
 		int GetCustomerNumber();
-		//Retruns what time they departed
-		int Getdeparturetime();
 };
 
 //Default constructor
@@ -49,11 +45,6 @@ int Customer::GetArrivalTime()
 int Customer::GetCustomerNumber()
 {
 	return customernumber;
-}
-//Returns what customer number they are
-int Customer::Getdeparturetime()
-{
-	return departuretime;
 }
 
 
